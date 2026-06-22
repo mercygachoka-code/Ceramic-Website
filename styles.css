@@ -1,0 +1,30 @@
+body {
+  font-family: Cormorant, serif;
+}
+
+.links {
+  display: inline-block;
+}
+.links li {
+  display: inline-block;
+  padding: 16px;
+}
+
+.links a {
+  text-decoration: none;
+}
+
+.active {
+  border-bottom: 1px solid black;
+  padding: 3px;
+}
+
+.nav-bar h1 {
+  display: inline-block;
+  font-weight: 300;
+  margin: 0 32px 0 0;
+}
+
+.nav-bar {
+  margin-left: 42px;
+}
