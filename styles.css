@@ -1,35 +1,56 @@
+/* Global page typography */
 body {
   font-family: Cormorant, serif;
 }
 
+/* Light heading style for titles and section headers */
+h1,
+h2,
+h3 {
+  font-weight: 300;
+}
+
+/* Gallery section heading spacing */
+.gallery h2 {
+  font-weight: 300;
+  margin: 8px;
+}
+
+/* Navigation links container */
 .links {
   display: inline-block;
 }
 
+/* Individual link spacing in the navigation */
 .links li {
   display: inline-block;
   padding: 16px;
 }
 
+/* Navigation link appearance */
 .links a {
+  color: black;
   text-decoration: none;
 }
 
+/* Active navigation item underline style */
 .active {
   border-bottom: 1px solid black;
   padding: 3px;
 }
 
+/* Top navigation bar title styling */
 .nav-bar h1 {
   display: inline-block;
-  font-weight: 300;
   margin: 0 32px 0 0;
 }
 
+/* Navigation bar layout and spacing */
 .nav-bar {
   margin-left: 42px;
 }
 
+/* Card container layout for gallery images */
 .card {
   display: inline-block;
   box-sizing: border-box;
@@ -37,10 +58,25 @@ body {
   padding: 2px;
 }
 
+/* Gallery image styling to preserve aspect ratio */
 .card img {
   object-fit: cover;
   width: 100%;
   height: 500px;
+}
+
+/* About section width and spacing */
+.about {
+  width: 40%;
+  margin: 100px 0 30px 50px;
+}
+
+/* Contact section styling with bottom border */
+.contact {
+  margin-top: 100px;
+  border-bottom: 1px solid black;
+  padding: 8px;
+  display: inline-block;
 }
 
 /* Tablet screens */
